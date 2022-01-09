@@ -13,10 +13,15 @@ The extra information will display and then slowly disappear in 20-25 seconds.
 - The top left corner position shows HeartRate in red, tilted 45 degrees. 
 - The top right corner position shows the battery percentage in grey, tilted -45 degrees.
 
-
 Will elaborate on process, and future dev later. A lot of this process was started by someone else so I'll post a reference once I find it again.
 
 ## Planned Ideas:
+- Initially planned on having the background 'pulse' dependant on the HeartRate frequency, but it looked odd..... so re-think this maybe.
+- Make the cartoon 'hands/arms' outlined and display them for 'always on' display use.
+- Minnie Mouse version
+- Keeping the "6" roman numeral active, then making it disappear when the other information appears (reversing the fade process).
+- Extra information spins in? for extra cuteness?
+- What other information can/should be displayed and how?
 - Different outfits/looks.
   - Red/bloodshot eyes at 4:20am/pm
   - Sleepy eyes between 1:00am and 7:00am
@@ -24,8 +29,15 @@ Will elaborate on process, and future dev later. A lot of this process was start
     - if it's rainy make him wear a raincoat
     - if it's over 80*F.. IDK something
     - if it's under 28*F.. IDK something
-- color bars? Spinn
+- color bars?
 - Okay but what if the seconds hand was a lil white pee pee and it spun from his crotch?
+
+
+- Creating a settings option/interface 
+  - to change the numerals
+  - apply new images to 'body', 'hour arm/hand', 'minute arm/hand'
+  - change display of seconds bar (color)
+- How to package and put on watchface store with non copyrighted images, then host the 'mickey' images for folks to download or use for free. Also lets folks design their own.
 
 ## Screenshots: 
 <img alt="Screenshot with no extra information" src="https://github.com/delabusy/Mickey-Mouse-fitbit-sense-watchface/blob/main/mixcke-screenshot%20(3).png">Screenshot with no extra information
