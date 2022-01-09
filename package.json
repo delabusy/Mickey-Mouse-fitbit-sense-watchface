@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "3163e4e3-7b73-46bf-a3bc-2da5c1ddbcfa",
+    "appType": "clockface",
+    "appDisplayName": "mixcke",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#f44336",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_user_profile",
+      "access_exercise",
+      "access_activity",
+      "access_internet",
+      "access_location",
+      "run_background",
+      "access_calendar"
+    ],
+    "buildTargets": [
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "mixcke"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
