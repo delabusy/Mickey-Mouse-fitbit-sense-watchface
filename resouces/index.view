@@ -1,0 +1,72 @@
+<svg class="background">
+  <text x="280" y="44" id="myLabel" />
+  <image height="320" width="320" class="bgbg" href="bg.gif"  />
+<!-- BG Gradient   -->
+  <use href="#app-gradient-background" class="app-gradient-background application-fill" apply-style="at-use"></use>
+<!-- Mickeys Body     -->
+  <image class="mbody" href="body_320.png" />
+<!--  Battery Monitor    -->
+  <g opacity="0"transform="rotate(45)"><text id="mybatt" x="235" y="-160" >42</text>
+     <animate attributeName="opacity" begin="click" from="0" to="1" dur="2" />
+         <animate attributeName="opacity" begin="click" from="1" to="0" dur="25" />
+  </g>
+
+<!-- <animate attributeName="opacity" begin="click" from="0" to="1" dur="3" final="keep"/>
+<animate attributeName="opacity" begin="click+2" from="1" to="0" dur="3" final="keep"/></g>   -->
+<!-- HeartRate Monitor  -->
+  <g opacity="0" transform="rotate(-45)"><text id="myhrm" x="5" y="70">42</text>
+     <animate attributeName="opacity" begin="click" from="0" to="1" dur="2" />
+     <animate attributeName="opacity" begin="click" from="1" to="0" dur="25" />
+  </g>
+<!-- Numbers on the face     -->
+    <g transform="translate(50%,50%)"><text x="-13" y="-138" class="clockfacetext">XII</text></g>
+    <g transform="translate(50%,50%)"><text x="-152" y="12" class="clockfacetext">IX</text></g>
+    <g transform="translate(50%,50%)"><text x="135" y="12" class="clockfacetext">III</text></g>
+<!--     
+    <g transform="tranlate(50%,50%)"><text x="-8" y="159" class="clockfacetext"></text></g>
+    <g transform="translate(50%,50%)"><text x="-146" y="-60" class="clockfacetext"></text></g> 
+    <g transform="translate(50%,50%)"><text x="118" y="-60" class="clockfacetext"> </text></g> 
+    <g transform="translate(50%,50%)"><text x="-135" y="83" class="clockfacetext"></text></g> 
+    <g transform="translate(50%,50%)"><text x="116" y="83" class="clockfacetext"></text></g> 
+    <g transform="translate(50%,50%)"><text x="67" y="142" class="clockfacetext"></text></g> 
+    <g transform="translate(50%,50%)"><text x="-82" y="140" class="clockfacetext"></text></g> 
+    <g transform="translate(50%,50%)"><text x="-85" y="-120" class="clockfacetext"></text></g> 
+    <g transform="translate(50%,50%)"><text x="65" y="-120" class="clockfacetext"></text></g>  -->
+    <image width="91" height="50" x="175" y="250" href="shoe01_320.png" />
+  <defs>
+    <symbol id="clock-widget" class="clock-widget" type="clock-widget" focusable="false" pointer-events="visible"
+    system-events="all" x="0" y="0" width="100%" height="100%" data-size="16" />
+  </defs>
+  <!-- clock widget -->
+  <use id="analog-watch-hands" href="#clock-widget">
+    <!-- clock background -->
+<g> 
+          <image x="100" y="27" class="mhead1" width="148" height="128" href="head_320.png" fill="white" />
+      </g>
+      <g >
+         <image x="123" y="86" width="23" height="31" class="meyes1" href="eyes01_320.png" fill="white"/>
+      </g>
+    <!-- clock hands -->
+    <g transform="translate(50%,50%)">
+      <g  id="hour-hand">
+        <image x="$-40" y="$-114" width="50" height="114" fill="white" href="hand_hour_320.png"  />
+      </g>
+    </g> 
+    <g >
+
+    </g>
+     <g  transform="translate(50%,50%)">
+      <g id="minute-hand">
+        <image x="$-31" y="$-130" width="41" height="130" href="hand_minute_320_1.png" fill="white" />
+      </g>
+    </g>     
+<g  transform="translate(50%,50%)">
+      <g id="second-hand">
+        <image x="$-1" y="$-120" width="9" height="120" href="seconds.png" fill="white" />
+      </g>
+    </g>
+  </use>
+
+  <text opacity="0" id="mysteps" x="170" y="320">42   <animate attributeName="opacity" begin="click" from="0" to="1" dur="2" />     <animate attributeName="opacity" begin="click" from="1" to="0" dur="25" />
+
+</text>

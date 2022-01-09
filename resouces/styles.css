@@ -1,0 +1,66 @@
+.background {
+}
+
+#myLabel {
+  font-size: 24;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 200;
+  y: 40;
+  fill: rgba(0,0,0,0);
+}
+
+#myhrm {
+  font-size: 32;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  fill: red;
+}
+.app-gradient-background    { fill: fb-white; }
+
+
+.mbody {
+  width: 180;
+  height: 157;
+  x: 90;
+  y: 140;
+}
+
+.bgbg {opacity:.9;}
+
+.mshoe1 {
+  width: 91;
+  height: 50;
+  x:185;
+  y:255;
+}
+
+.mhead1 {
+}
+
+.meyes1 {
+
+}
+
+.clockfacetext {
+  font-family: System-Bold;
+  fill: white;
+}
+
+#mysteps {
+  font-size: 32;
+  font-family: System-Bold;
+  text-length:32;
+  text-anchor: middle;
+  fill: gold;
+}
+
+#mybatt {
+  font-size: 32;
+  font-family: System-Bold;
+  text-length:28;
+  text-anchor: middle;
+  fill: grey;
+}
