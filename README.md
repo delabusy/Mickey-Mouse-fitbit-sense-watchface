@@ -14,7 +14,7 @@ The extra information will display and then slowly disappear in 20-25 seconds.
 - The top right corner position shows the battery percentage in grey, tilted -45 degrees.
 
 
-Will elaborate on process, and future dev later. 
+Will elaborate on process, and future dev later. A lot of this process was started by someone else so I'll post a reference once I find it again.
 
 ## Planned Ideas:
 - Different outfits/looks.
