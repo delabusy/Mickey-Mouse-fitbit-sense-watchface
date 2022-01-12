@@ -19,6 +19,7 @@ Will elaborate on process, and future dev later. A lot of this process was start
 - Initially planned on having the background 'pulse' dependant on the HeartRate frequency, but it looked odd..... so re-think this maybe.
 - Make the cartoon 'hands/arms' outlined and display them for 'always on' display use.
 - Minnie Mouse version
+- flip watch for lefties
 - Keeping the "6" roman numeral active, then making it disappear when the other information appears (reversing the fade process).
 - Extra information spins in? for extra cuteness?
 - What other information can/should be displayed and how?
